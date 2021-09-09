@@ -50,16 +50,11 @@ import { checkPropTypes } from 'prop-types';
 import React, {useState} from 'react'; /* STEP 0 */
 import { royalblue } from '../../cypress/constants';
 
-export default function Counter(props) {
+export default function Counter() {
   /* STEP 1 */
   const [count, setCount] = useState(0); 
-  // return 
 
-  // return (
-  //   <div>
-      
-  //   </div>
-  // )
+
   const increment = () => {
     setCount(count + 1)
     /* STEP 4 */
